@@ -9,6 +9,9 @@ const output = {
     login : (req,res) =>{
         res.render("home/login");
         console.log("getlogin");
+    },
+    register: (req,res) => {
+        res.render("home/register");
     }
 }
 
